@@ -2,7 +2,7 @@
 import { Component, DebugElement } from '@angular/core';
 import { async, fakeAsync, TestBed, tick, ComponentFixture } from '@angular/core/testing';
 
-import { BsDropdownConfig, BsDropdownDirective, BsDropdownModule } from '../dropdown';
+import { BsDropdownConfig, BsDropdownDirective, BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { window } from '../utils/facade/browser';
 import { By } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
